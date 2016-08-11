@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff could help one to find out differences between two files, if there is an unexpected change in a new version of the file,
+it would probably be the bug!
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It may help programmer to keep track of the whole development process of a file/project and more importantly, one could roll back to previous
+version if the new modified version is not making much good or progress.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros: Each commit is called on purpose, it won't be too small compared to automatically saving. Mostly each commit is based on a logical change, while
+automatic saving is not based on logical changes obviously.
+Cons: The commit could be too large compared to automatically saving. The user may forget to commit and lose the changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because for a programmer, a newly added feature or function may be related to different files. In other words, more than one file is involved
+in a logical change, thus committing multiple files in a commit is needed for programmers. While, in the case of Google Docs, I think tracking
+a single file is the most frequent using case, for example, tracking a word or ppt document.
+
+How can you use the commands git log and git diff to view the history of files?
+
+One cau use command git log to view all commit histories and see what all the changes of all files.
+One can use command git diff to view differences and changes between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+If I break something, I could simple discard the changes and don't commit the changes. Even if I do really break something and commit it,
+I still could switch back to a previous version by using command git checkout.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to save my Front-End degree codes, my AR and Leetcode files. In addition, I will use Git to save and keep track of 
+any projects.

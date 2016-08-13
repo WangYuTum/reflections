@@ -31,5 +31,8 @@ see the entire history of commits from different branches.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The two branches will be merged into the currently checked out branch. The reason is that we'll be able to see the commit history before and after
+the merging, which allows us to see the history and structure more clearly and easy to locate changes.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?

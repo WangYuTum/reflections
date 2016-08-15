@@ -7,7 +7,9 @@ create a local repository on the computer.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Because there might be a possibility that I'm working on a new feature on my local repository and I haven't finish it yet.
+I want to update from remote until I finish my new feature so that the up-to-date changes wouldn't affect or mess up with
+my new feature that I'm still working on with.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?

@@ -26,7 +26,8 @@ version of codes.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+To have a base point where the diverge or changes begin to happen between remote repository and local repository. The
+benefit is that Git will be able to track and merge changes if there is a last known state.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

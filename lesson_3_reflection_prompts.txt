@@ -32,7 +32,11 @@ benefit is that Git will be able to track and merge changes if there is a last k
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+I would probably use a pendrive to share a project. We can have a stable up-to-date version stored in a pendrive and everyone
+gets a copy of it and make changes on their own computer. When one finishes his work, he could request to merge his changes into
+the stable version. This way is more simpler for programmers to play with codes and gives them freedom. However when it comes to
+merge, it becomes much more difficult if several people modify the same files. It would be difficult and nasty to identify every changes
+that have been made and to resolve conflicts.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

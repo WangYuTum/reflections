@@ -41,4 +41,8 @@ that have been made and to resolve conflicts.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+When I think the new feature or new version that I'm about to add or change is logically big enough, then it's necessary to create a new
+branch and work on it. Or when I'm going to do some tests or experiments on new features/functions, it's better to do it on a new branch
+without affecting the master branch. When creating a new branch, one doesn't have to be worried about affecting the master branch as long as
+one doesn't merge the new branch into master branch. Working directly on master branch makes it easier to push and pull without concerning about
+merging different branches.
